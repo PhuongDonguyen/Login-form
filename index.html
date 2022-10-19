@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Login page</title>
+  </head>
+  <body>
+    <div class="login-card">
+      <div class="login-card__logo">
+        <img
+          src="https://cdn1.finhay.com.vn/wp-content/uploads/2021/08/18093026/logo-finhay-1.png"
+          alt="logo"
+        />
+      </div>
+      <div class="login-card__header">
+        <h1>Sign In</h1>
+        <div>Please login to use platform</div>
+      </div>
+      <div class="login-card__form">
+        <div class="login-card__form-item">
+          <span class="login-card__form-item-icon material-symbols-outlined"
+            >mail</span
+          >
+          <input type="text" placeholder="Enter Email" required />
+        </div>
+        <div class="login-card__form-item">
+          <span class="login-card__form-item-icon material-symbols-outlined"
+            >lock</span
+          >
+          <input type="password" placeholder="Enter Password" required />
+        </div>
+        <div class="login-card__form-item-other">
+          <div class="checkbox">
+            <input type="checkbox" id="rememberMe" />
+            <label for="rememberMe">Remember me</label>
+          </div>
+          <a href="#">I forgot my password!</a>
+        </div>
+        <button type="submit">Sign In</button>
+      </div>
+      <div class="login-card__footer">
+        Don't have an account? <a href="#">Create a free account.</a>
+      </div>
+    </div>
+    <div class="login-card-wrapper"></div>
+  </body>
+</html>

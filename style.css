@@ -1,0 +1,148 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #333399, #ff00cc);
+}
+
+.login-card {
+    width: 450px;
+    height: auto;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    padding: 0 40px;
+    position: relative;
+}
+
+.login-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: inherit;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+
+.login-card__logo img {
+    height: 100px;
+}
+
+.login-card__logo,
+.login-card__header,
+.login-card__footer {
+    text-align: center;
+}
+
+.login-card a {
+    color: #35339a;
+    text-decoration: none;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}
+
+.login-card__header {
+    margin-bottom: 40px;
+}
+
+.login-card__header h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.login-card__header h1 + div {
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+
+.login-card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.login-card__form-item {
+    position: relative;
+}
+
+.login-card__form-item input {
+    font-size: 1.6rem;
+    padding: 15px;
+    padding-left: 72px;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.login-card__form-item-icon {
+    position: absolute;
+    font-size: 1rem;
+    top: 1rem;
+    left: 30px;
+    color: rgba(0, 0, 0, .3)
+}
+
+.login-card__form-item input:focus {
+    background-color: #fff;
+    cursor: text;
+}
+
+.login-card__form-item-other {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.login-card__form-item-other .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: #333;
+    cursor: pointer;
+}
+
+.login-card__form button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    padding: 15px 0;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.login-card__form button[type="submit"]:hover {
+    background-color: rgba(0, 0, 0, .85);
+}
+
+.login-card__footer {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+
+
+
+
