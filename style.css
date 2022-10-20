@@ -142,6 +142,9 @@ input[type="checkbox"] {
     margin-bottom: 50px;
 }
 
+@media(max-width: 520px) {
+    .login-card {padding: 0 10px}
+}
 
 
 
