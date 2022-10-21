@@ -93,7 +93,8 @@ body {
 .login-card__form-item-icon {
     position: absolute;
     font-size: 1rem;
-    top: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
     left: 30px;
     color: rgba(0, 0, 0, .3)
 }
